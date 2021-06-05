@@ -17,7 +17,7 @@ const app = express();
 app.get('/', (req, res) => res.send('INDEX'));
 
 //CollabApp Routes
-app.use('/users', require('./routes/users'))
+app.use('/users', require('./routes/users'));
 
 const PORT = process.env.PORT || 5000;
 

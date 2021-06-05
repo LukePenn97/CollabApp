@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize');
 
 
 // Passing a connection URI
-module.exports = new Sequelize('collabapp', 'labber', 'labber', {
+module.exports = new Sequelize('collabapp', 'ar', '123456', {
   host: 'localhost',
   dialect: 'postgres',
   //operatorsAliases:false,

@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "ar",
+    "password": "123456",
+    "database": "collabapp",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "ar",
+    "password": "123456",
+    "database": "collabapp",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "qr",
+    "password": "123456",
+    "database": "collabapp",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
