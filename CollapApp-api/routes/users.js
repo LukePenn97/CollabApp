@@ -1,15 +1,12 @@
 const router = require("express").Router();
 const db = require('../config/database')
-// const db = require( '../models/index')
 const User = require('../models/User')
 
 module.exports = db => {
-console.log(db)
 //get user profile
 
 router.get('/users', (req, res) =>
-console.log("within"),
-User.findAll({raw: true})
+User.findAll()
   .then(user => {
     console.log(user);
     res.json(user);
